@@ -1,18 +1,12 @@
 import React from 'react'
 
-import { Button } from '@material-ui/core'
-import { ConfirmableButton } from './ConfirmableButton';
+import {Button} from '@material-ui/core'
 
 export default function Hello() {
 
   return <div>
-    <h1>ConfirmableButton</h1>
-    <ConfirmableButton popover={
-      <Button variant='contained' color='secondary' onClick={() => {
-        console.log('### deleting!')
-      }}>Just do it!</Button>
-    }>
-      <Button>Delete?</Button>
-    </ConfirmableButton>
+    <h1>Button </h1>
+    <Button>Hello</Button>
+    <Button style={{textTransform: 'none'}}>Hello</Button>
   </div>
 }
