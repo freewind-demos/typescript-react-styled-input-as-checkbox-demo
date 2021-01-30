@@ -1,9 +1,9 @@
-TypeScript React "material-ui" Button No Auto UpperCase Demo
-===================================
+TypeScript React "material-ui" Styled Components Demo
+=====================================================
 
-Material UI中的button默认会自动转为大写。可以通过style的`textTransform: 'none'`禁止该行为。
+styled-components可以完美地与Material-ui一起工作
 
-我觉得应该提供一个属性来控制才好
+https://material-ui.com/zh/guides/interoperability/#styled-components
 
 ```
 npm install
