@@ -1,16 +1,26 @@
 import React from 'react'
 
 import styled from 'styled-components';
-import {Button} from '@material-ui/core'
+import {Button} from './Button';
 
-const MyButton = styled(Button)`
-  text-transform: none;
-`;
+
+const StyledButton = styled(Button)`
+  font-size: 30px;
+`
+
+const StyledButton2 = styled(StyledButton)`
+  color: red
+`
+
+const StyledButton3 = styled(StyledButton2)`
+  color: red
+`
 
 export default function Hello() {
   return <div>
-    <h1>Button </h1>
-    <Button>Hello</Button>
-    <MyButton>Hello</MyButton>
+    <Button text={'Button'}/>
+    <StyledButton text={'StyledButton'}/>
+    <StyledButton2 text={'StyledButton2'}/>
+    <StyledButton3 text={'StyledButton3'}/>
   </div>
 }
