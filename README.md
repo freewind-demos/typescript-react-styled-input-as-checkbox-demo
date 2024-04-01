@@ -1,9 +1,9 @@
-TypeScript React Styled Components Demo
+TypeScript React Styled Input as Checkbox Demo
 =====================================================
 
-styled-components如何包装React component
+可以在style一个input的时候传入指定的attribute，如`type="checkbox"`，这样使用时就直接是一个checkbox了。
 
-注意：对自定义的component进行多次wrap，类型依然正常!
+这在emotion.styled中不支持
 
 ```
 npm install
